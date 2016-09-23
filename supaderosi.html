@@ -36,17 +36,39 @@ Search for the text "TODO" in this HTML file, to know what changes you should ma
       <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
-  
+
 <div class="row">
    <div class="col s12 m7">
      <div class="card">
        <div class="card-image">
-         <img src="images/sample-1.jpg">
-         <span class="card-title">Card Title</span>
+         <img src="http://cafebulgakov.ro/wp-content/uploads/2014/11/Parasztcsorba2.jpg">
+         <span class="card-title"><h2>Supă de roşii</h2></span>
        </div>
        <div class="card-content">
-         <p>I am a very simple card. I am good at containing small bits of information.
-         I am convenient because I require little markup to use effectively.</p>
+         <script>
+ var ingrediente = ['Ingrediente :', ' - 1,5-2 kilograme de rosii bine coapte sau 1 litru de bulion de rosii concentrat', ' - 1 ceapa ', ' - 2-3 morcovi', ' - 1 bucata de telina cat 1 ou mic',
+ ' - 1 catel de usturoi', ' - 30 de ml. de ulei de masline extravirgin (asta am folosit eu, merge si un alt ulei, doar ca gustul uleiului de masline cu cel al rosiilor tare e prieten)',
+ ' - verdeturi: 3 foi de dafin, 1 ramurica de cimbru proaspat, 1 ramurica de busuioc, patrunjel verde sau busuioc pt. presarat (dupa preferinta)', '- 1 lingura rasa de zahar', '- sare si piper',
+ 'Mod de preparare: ', ' 1. Rosiile se pot opari in apa clocotita 1-2 minute, apoi se vor decoji cu usurinta, dar de aceasta data am procedat un pic altfel, am asezat rosiile pe gratarul incins si le-am copt, intorcandu-le pe toate partile, timp de 5 minute, ceea ce a facut sa se concentreze aroma, sa prinda si un gust nemaipomenit de copt, dar sa se si desprinda foarte usor coaja.',
+ ' 2. Rosiile decojite si cu partea lemnoasa indepartata cu varful unui cutit le-am pus intr-o oala potrivita, le-am acoperit cu apa (se poate folosi la fel de bine supa de legume, de vita sau de pui), am adaugat dafinul, crenguta de cimbru si cea de busuioc si doar un praf de sare, apoi le-am pus pe foc.',
+ ' 3. Intre timp, se curata, se spala si se toaca marunt legumele, usturoiul se zdrobeste. Se incinge uleiul intr-o oala si se adauga toate legumele deodata, calindu-se pana se inmoaie, pe foc mic (sa nu se rumeneasca deloc, ar dauna gustului final al supei). Imediat ce se inmoaie legumele, se adauga o ceasca (200 de ml.) de apa si se fierb mai departe.',
+  ' 4. Dupa aproximativ 10 minute de fierbere, se ia de pe foc oala cu rosiile, se scoate dafinul si cimbrul si se paseaza cu blenderul de mana (se poate trece si prin sita, mai ales daca aveti probleme cu alergiile la semintele de rosii).',
+  ' 5. Rosiile pasate se adauga peste legumele calite si se completeaza cu apa pana la atingerea consistentei dorite (supa poate fi mai cremoasa sau mai lichida, dupa cum va place). In aceasta faza se condimenteaza supa cu 1 lingura rasa de zahar (necesar pentru a echilibra aciditatea rosiilor), sare si piper dupa gust.',
+  ' 6. Se fierbe in continuare pana cand legumele au consistenta dorita, eu le prefer cu putina textura, nu foarte moi. Daca se doreste, se pot pasa si legumele, facandu-se o supa crema.',
+  ' 7. Daca se prefera pastele pentru servit, se fierb pastele (sa fie unele marunte) in apa sarata conform instructiunilor de pe ambalaj si se adauga in supa dupa ce se limpezesc si se amesteca cu un strop de ulei ca sa nu devina lipicioase.'];
+   for(var i in ingrediente){
+     var x = document.getElementById('divi');
+     document.write('<p>' + ingrediente[i] + '</p>');
+   }
+ </script>
+ <div id = "divi"> </div>
+
+
+
+
+
+
+
        </div>
        <div class="card-action">
          <a href="#">This is a link</a>
