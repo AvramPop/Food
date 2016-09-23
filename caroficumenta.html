@@ -36,17 +36,53 @@ Search for the text "TODO" in this HTML file, to know what changes you should ma
       <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
-  
+
 <div class="row">
    <div class="col s12 m7">
      <div class="card">
        <div class="card-image">
-         <img src="images/sample-1.jpg">
+         <img src="http://pizzacolosseum.ro/wgs/module/produse/files/cartofi%20chips1459424067.jpg">
          <span class="card-title">Card Title</span>
        </div>
        <div class="card-content">
-         <p>I am a very simple card. I am good at containing small bits of information.
-         I am convenient because I require little markup to use effectively.</p>
+
+         <script>
+         var ingrediente = ['Ingrediente:', ' - 500 gr cartofi noi', ' - sare, piper negru', '- Unt aromat cu menta', '- 100 gr unt gras (80% grasime; la temp. camerei)', '- 4 linguri ulei de masline extravirgin (30-35 ml)',
+          ' - 12-15 frunze mari de menta', '- coaja rasa de la 1/2 lamaie mica', '- 1 lingura suc de lamaie',' Mod de preparare: ', ' 1. Se taie untul bucati si se pune intr-un robot. Se adauga uleiul, menta tocata, sucul si coaja de lamaie. Se mixeaza pana menta e bine maruntita si obtineti o pasta omogena. Se pastreaza la frigider. Din cauza uleiului, crema va ramane destul de usor tartinabila si la rece.* va iesi mai mult unt decat aveti nevoie pentru cartofi, dar se pastreaza bine la firgider cam 1 saptamana; il puteti folosi si in alte retete (la fripturi, frigarui, sandwichuri etc).',
+           ' 2. Se curata cartofii noi (fie se freaca cu un sare grunjoasa si un burete metalic, fie se curata normal cu cutitul). In functie de marimea lor se taie in 2 sau 4 felii pe lungime. Se pun la fiert in apa cu sare pana furculita intra usor in ei.',
+           ' 3. Se scurg si se pun intr-un castron.', ' 4. Se adauga 2 lingurite generoase din untul aromat de la pct. 1 Se presara sare si se rasneste piper negru dupa gust.',
+         'Se amesteca usor pana untul se topeste si menta acopera cartofii. Se servesc imediat. Merg bine langa pui la gratar (sau frigarui), langa somon la cuptor (sau pe gratar), cotlete de miel pe gratar.'];
+           for(var i in ingrediente){
+             var x = document.getElementById('divi');
+             document.write('<p>' + ingrediente[i] + '</p>');
+           }
+         </script>
+         <div id = "divi"> </div>
+
+
+
+         Ingrediente:
+
+        - 500 gr cartofi noi
+        - sare, piper negru
+        - Unt aromat cu menta
+        - 100 gr unt gras (80% grasime; la temp. camerei)
+        - 4 linguri ulei de masline extravirgin (30-35 ml)
+        - 12-15 frunze mari de menta
+        - coaja rasa de la 1/2 lamaie mica
+        - 1 lingura suc de lamaie
+
+         Preparare
+
+         Se taie untul bucati si se pune intr-un robot. Se adauga uleiul, menta tocata, sucul si coaja de lamaie. Se mixeaza pana menta e bine maruntita si obtineti o pasta omogena. Se pastreaza la frigider. Din cauza uleiului, crema va ramane destul de usor tartinabila si la rece.
+         * va iesi mai mult unt decat aveti nevoie pentru cartofi, dar se pastreaza bine la firgider cam 1 saptamana; il puteti folosi si in alte retete (la fripturi, frigarui, sandwichuri etc).
+         Se curata cartofii noi (fie se freaca cu un sare grunjoasa si un burete metalic, fie se curata normal cu cutitul). In functie de marimea lor se taie in 2 sau 4 felii pe lungime. Se pun la fiert in apa cu sare pana furculita intra usor in ei.
+         Se scurg si se pun intr-un castron.
+         Se adauga 2 lingurite generoase din untul aromat de la pct. 1 Se presara sare si se rasneste piper negru dupa gust. Se amesteca usor pana untul se topeste si menta acopera cartofii. Se servesc imediat. Merg bine langa pui la gratar (sau frigarui), langa somon la cuptor (sau pe gratar), cotlete de miel pe gratar.
+
+
+
+
        </div>
        <div class="card-action">
          <a href="#">This is a link</a>
