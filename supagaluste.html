@@ -52,12 +52,30 @@ Search for the text "TODO" in this HTML file, to know what changes you should ma
      <div class="card">
        <div class="card-image">
          <img src="http://www.florikitchen.ro/wp-content/uploads/2016/04/DSC02864.jpg">
-         <span class="card-title"><h2>Supă de Găluşte</h3></span>
+         <span class="card-title"><h2>Supă de Găluşte</h2></span>
        </div>
        <div class="card-content">
-         <p>I am a very simple card. I am good at containing small bits of information.
-         I am convenient because I require little markup to use effectively.</p>
-       </div>
+         <script>
+var ingrediente = ['Ingrediente: ','-2 oua', '-7-8 linguri gris', '-1 lingurita ulei', '-sare', 'Mod de Preparare',
+ ' 1. Am pus suma de pui pe foc sa fiarba.',
+  '2. Am preparat galustele: am batut ouale cu sare si ulei. Am adaugat apoi grisul in ploaie, cate o lingura pe rand, amestecand dupa fiecare pana am obtinut consistenta dorita.* stiti ca aluatul are consistenta dorita atunci cand treceti cu furculita prin el si darele raman vizibile. Faceti acest test dupa fiecare lingura de gris fiindca si daca puneti prea mult nu e bine, galustele vor iesi tari. Vezi in poza cam cum trebuie sa arate aluatul, moale dar totusi sa nu curga de pe lingurita.',
+   '3. Dati focul pe mic sub oala cu supa astfel inca aceasta sa nu clocoteasca, altfel galustele s-ar imprastia.',
+   ' 4. Cu o lingurita formati galustele in supa: inmuiati lingurita in supa pana se infierbanta (cateva secunde), apoi luati aluat cu ea si scufundati-o in supa sa se desprinda galusca. Repetati pana terminati aluatul.* daca vedeti ca prima galusca se imprastie inseamna ca ati pus prea putin gris, va opriti si mai adaugati putin.',
+    '5. Cand ati terminat de format galustele puneti capacul la oala si fierbeti tot asa la foc mic pentru 10 minute. Opritit focul si lasati oala cu capac inca 5-10 minute. Galustele ies foarte pufoase.',
+    ' 6. Servim supa cu piper si patrunjel.'];,
+  for(var i in ingrediente){
+    var x = document.getElementById('divi');
+    document.write('<p>' + ingrediente[i] + '</p>');
+  }
+</script>
+<div id = "divi"> </div>
+
+
+-2 oua
+-7-8 linguri gris
+-1 lingurita ulei
+-sare
+
        <div class="card-action">
          <a href="index.html">Find more!</a>
        </div>
